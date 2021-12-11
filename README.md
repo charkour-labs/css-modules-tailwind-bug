@@ -1,3 +1,5 @@
+[Link to issue](https://github.com/tailwindlabs/tailwindcss/issues/6409) in tailwindlabs/tailwindcss
+
 To reproduce the bug, run the following commands:
 
 `npm i`
