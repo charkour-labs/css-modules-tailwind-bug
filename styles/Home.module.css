@@ -1,5 +1,5 @@
 .card {
-  // Here the same styles are applied, but the borders are different colors.
+  /* Here the same styles are applied, but the borders are different colors. */
   @apply h-36 w-36 border rounded p-4 m-4;
 }
 
