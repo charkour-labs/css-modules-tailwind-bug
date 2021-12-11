@@ -21,10 +21,12 @@ const Home: NextPage = () => {
         </p>
 
         <div className={styles.grid}>
-          <article className="h-36 w-36 border rounded p-4 m-4">
+          <article className={styles.card}>
             Styled with CSS Modules + Tailwind
           </article>
-          <article className={styles.card}>Styled with inline Tailwind</article>
+          <article className="h-36 w-36 border rounded p-4 m-4">
+            Styled with inline Tailwind
+          </article>
         </div>
       </main>
     </div>
