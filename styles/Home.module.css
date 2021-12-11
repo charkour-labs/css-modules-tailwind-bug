@@ -1,3 +1,8 @@
+.card {
+  // Here the same styles are applied, but the borders are different colors.
+  @apply h-36 w-36 border rounded p-4 m-4;
+}
+
 .container {
   padding: 0 2rem;
 }
@@ -12,40 +17,6 @@
   align-items: center;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
 .description {
   text-align: center;
 }
@@ -73,20 +44,3 @@
   max-width: 800px;
 }
 
-.card {
-  @apply h-36 w-36 border rounded p-4 m-4;
-}
-
-
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
-}
